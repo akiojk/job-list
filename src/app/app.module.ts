@@ -3,6 +3,10 @@ import { NgModule } from '@angular/core';
 
 import { AppComponent } from './app.component';
 import { JobModule } from './job/job.module';
+import { CoreModule } from './core/core.module';
+import { NgxsModule } from '@ngxs/store';
+import { JobState } from './job/state/job.state';
+import { HttpClientModule } from '@angular/common/http';
 
 @NgModule({
   declarations: [
@@ -10,7 +14,12 @@ import { JobModule } from './job/job.module';
   ],
   imports: [
     BrowserModule,
-    JobModule
+    JobModule,
+    CoreModule,
+    HttpClientModule,
+    NgxsModule.forRoot([
+      JobState
+    ])
   ],
   providers: [],
   bootstrap: [AppComponent]

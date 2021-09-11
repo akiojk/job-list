@@ -1,0 +1,29 @@
+.item-container{
+    width: 350px;
+    height: 100px;
+    padding: 10px;
+
+    display: flex;
+    flex-direction: row;    
+}
+.icon-container{
+    display: flex;
+    width: 65px;
+    justify-content: center;
+    align-items: baseline;
+}
+.details-container{
+    display: flex;
+    flex-direction: column;
+}
+span{ 
+    text-overflow: ellipsis;
+    white-space: normal;
+    overflow: hidden;
+}
+
+.title{
+    color: #0098ef;
+    font-size: 16px;
+    font-weight: bold;
+}

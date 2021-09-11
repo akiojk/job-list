@@ -1,0 +1,91 @@
+[
+    {
+        "createdAt": "2021-09-03T04:40:29.823Z",
+        "employmentType": "SUBBIE",
+        "endDate": "2021-09-09T04:42:37.000Z",
+        "id": "d89cfef1-03c6-4ea9-a262-08c3b9afea0d",
+        "jobDurationDisplay": {
+            "duration": 20,
+            "durationType": "DAYS"
+        },
+        "jobType": "COMMERCIAL",
+        "location": {
+            "postcode": "3066",
+            "suburb": "COLLINGWOOD",
+            "id": 5509,
+            "state": "VIC"
+        },
+        "profession": {
+            "name": "Cabinet Maker",
+            "id": 18
+        },
+        "rate": {
+            "type": "FIXED",
+            "max": 8524586,
+            "min": 8524586
+        },
+        "startDate": "ASAP",
+        "status": "COMPLETE",
+        "timeFrame": "NEXT_FEW_WEEKS",
+        "title": "Cabinet Maker"
+    },
+    {
+        "createdAt": "2021-09-01T06:38:30.350Z",
+        "employmentType": "PART_TIME",
+        "endDate": "2026-09-06T06:40:29.000Z",
+        "id": "224e0900-94fc-4fcd-89fa-539c8515e4b5",
+        "jobDurationDisplay": {
+            "duration": 10,
+            "durationType": "WEEKS"
+        },
+        "jobType": "COMMERCIAL",
+        "location": {
+            "postcode": "3000",
+            "suburb": "MELBOURNE",
+            "id": 5600,
+            "state": "VIC"
+        },
+        "profession": {
+            "name": "Tiler",
+            "id": 22
+        },
+        "rate": {
+            "type": "QUOTE",
+            "max": 0,
+            "min": 0
+        },
+        "startDate": "ASAP",
+        "status": "COMPLETE",
+        "timeFrame": "NEXT_FEW_DAYS",
+        "title": "Tiler - Urgent"
+    },
+    {
+        "createdAt": "2021-08-11T01:26:38.590Z",
+        "employmentType": "APPRENTICE",
+        "endDate": "",
+        "id": "0cafb669-ab2a-416a-b8b1-038d296786ce",
+        "jobDurationDisplay": {
+            "duration": 8,
+            "durationType": "DAYS"
+        },
+        "jobType": "COMMERCIAL",
+        "location": {
+            "postcode": "3071",
+            "suburb": "THORNBURY",
+            "id": 4456,
+            "state": "VIC"
+        },
+        "profession": {
+            "name": "Bricklayer",
+            "id": 33
+        },
+        "rate": {
+            "type": "HOUR",
+            "max": 75,
+            "min": 75
+        },
+        "startDate": "ASAP",
+        "timeFrame": "NEXT_FEW_WEEKS",
+        "title": "Bricklayer needed in Thornbury"
+    }
+]
