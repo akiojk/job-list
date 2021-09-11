@@ -4,5 +4,17 @@
   </div>
   <div class="details-container">
     <span class="title">{{job?.title}}</span>
+    <div class="location-container">
+      <span>{{(job?.employmentType) | translate}} * </span>
+      <span>{{job?.location?.suburb | titlecase}}, {{job?.location?.state}}</span>
+    </div>
+    <div class="start-container">
+      <img src="./assets/clock.png"/>
+      <span>{{job?.timeFrame | translate}}</span>
+    </div>
+    <div class="created-container">
+      <span>{{getCreatedFromNow()}} * </span>
+      <span>{{'RATE.' + job?.rate?.type | translate: {min: job?.rate?.min, max: job?.rate?.max} }}</span>
+    </div>
   </div>
 </div>
