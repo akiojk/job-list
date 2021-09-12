@@ -27,3 +27,21 @@ span{
     font-size: 16px;
     font-weight: bold;
 }
+
+.location-container{
+    font-size: 13px;
+    color: darkslategray;
+}
+
+.start-container{
+    display: flex;
+    flex-direction: row;
+    align-items: center;
+    font-size: 12px;
+    color: darkslategray;
+}
+
+.created-container{
+    font-size: 12px;
+    color: darkgray;
+}
